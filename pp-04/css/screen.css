@@ -247,6 +247,10 @@ img, audio, video {
 
   /* ===== STATE STYLES ======= */
 
+  html.wf-active{
+    font-family: 'Lato' Tahoma sans-serif;
+  }
+
   @media screen and (max-width: 26.25em) {
     html{
       font-size: 1.125em;
