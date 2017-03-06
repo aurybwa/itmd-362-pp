@@ -1,26 +1,26 @@
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
-*/
-/* stylelint-disable*/
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
-/* stylelint-enable */
+   */
+   /* stylelint-disable*/
+   a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+   /* stylelint-enable */
 
-/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+   /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Forms
-   ========================================================================== */
+========================================================================== */
 
 /**
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
 
-button,
-input,
-optgroup,
-select,
-textarea {
+ button,
+ input,
+ optgroup,
+ select,
+ textarea {
   font-family: sans-serif; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
@@ -32,8 +32,8 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 
-button,
-input { /* 1 */
+ button,
+ input { /* 1 */
   overflow: visible;
 }
 
@@ -42,8 +42,8 @@ input { /* 1 */
  * 1. Remove the inheritance of text transform in Firefox.
  */
 
-button,
-select { /* 1 */
+ button,
+ select { /* 1 */
   text-transform: none;
 }
 
@@ -53,10 +53,10 @@ select { /* 1 */
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
 
-button,
-html [type="button"], /* 1 */
-[type="reset"],
-[type="submit"] {
+ button,
+ html [type="button"], /* 1 */
+ [type="reset"],
+ [type="submit"] {
   -webkit-appearance: button; /* 2 */
 }
 
@@ -64,10 +64,10 @@ html [type="button"], /* 1 */
  * Remove the inner border and padding in Firefox.
  */
 
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+ button::-moz-focus-inner,
+ [type="button"]::-moz-focus-inner,
+ [type="reset"]::-moz-focus-inner,
+ [type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -76,10 +76,10 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+ button:-moz-focusring,
+ [type="button"]:-moz-focusring,
+ [type="reset"]:-moz-focusring,
+ [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -87,7 +87,7 @@ button:-moz-focusring,
  * Change the border, margin, and padding in all browsers (opinionated).
  */
 
-fieldset {
+ fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
@@ -100,7 +100,7 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 
-legend {
+ legend {
   box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
   display: table; /* 1 */
@@ -114,7 +114,7 @@ legend {
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 
-progress {
+ progress {
   display: inline-block; /* 1 */
   vertical-align: baseline; /* 2 */
 }
@@ -123,7 +123,7 @@ progress {
  * Remove the default vertical scrollbar in IE.
  */
 
-textarea {
+ textarea {
   overflow: auto;
 }
 
@@ -132,8 +132,8 @@ textarea {
  * 2. Remove the padding in IE 10-.
  */
 
-[type="checkbox"],
-[type="radio"] {
+ [type="checkbox"],
+ [type="radio"] {
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
@@ -142,8 +142,8 @@ textarea {
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+ [type="number"]::-webkit-inner-spin-button,
+ [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -152,7 +152,7 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 
-[type="search"] {
+ [type="search"] {
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
@@ -161,8 +161,8 @@ textarea {
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
 
-[type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration {
+ [type="search"]::-webkit-search-cancel-button,
+ [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -171,7 +171,7 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 
-::-webkit-file-upload-button {
+ ::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
@@ -189,22 +189,67 @@ img, audio, video {
 /*
   Major Sixth Modular Scale:
   http://www.modularscale.com/?22&px&1.667&web&text
-*/
+  */
 
-html {
-  font-size: 1.375em; /* 22px */
-  line-height: 1.182em; /* 26px / ~ 120% */
-  padding: 1.182em; /* 26px / ~ 120% */
-  text-rendering: optimizeLegibility;
-}
+  html {
+    font-size: 1.375em; /* 22px */
+    line-height: 1.182em; /* 26px / ~ 120% */
+    padding: 1.182em; /* 26px / ~ 120% */
+    font-family: Tahoma sans-serif;
+    background-color: #d3d3d3;
+    text-rendering: optimizeLegibility;
+  }
 
-label {
-  display: block;
-}
+  h1{
+    /*font-size: 3.375em;*/
+    padding: 1.182em 0;
+  }
 
-/* ===== LAYOUT STYLES ====== */
+  p{
+    padding: 1.182em 0;
+  }
 
-/* ===== MODULAR STYLES ===== */
+  label {
+    display: block;
+    padding: 1.182em 0;
 
-/* ===== STATE STYLES ======= */
+  }
 
+  /* ===== LAYOUT STYLES ====== */
+
+  input{
+    box-sizing: border-box;
+    height: 2.364em;
+    border: 0;
+    border-radius: 0;
+    background-color: #848484;
+    padding: 1.182em 0;
+  }
+
+
+  /* ===== MODULAR STYLES ===== */
+
+
+  input[type='submit'],
+  input[type='email']{
+    width: 100%;
+    padding: 0;
+  }
+
+  input[type='checkbox']{
+    padding: 0 1.182em;
+    position: absolute;
+  }
+
+  label[for='age-verification']{
+    padding: .591em 1.2em 1.182em;
+  }
+
+  /* ===== STATE STYLES ======= */
+
+  @media screen and (max-width: 26.25em) {
+    html{
+      font-size: 1.125em;
+      line-height: 1.22em;
+    }
+  }
